@@ -11,7 +11,7 @@ node_modules
 dist
 dist-ssr
 *.local
-challenge.txt
+/challenge.txt
 
 # Editor directories and files
 .vscode/*
