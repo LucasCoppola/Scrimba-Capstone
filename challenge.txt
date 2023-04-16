@@ -1,7 +1,11 @@
 # Challenge
 
-Add propTypes to the Image component
+1. Only render the "Place Order" button if there are items in the cart
 
-1. className should be a string
-2. img should be an object, specifically an object with `id`, `url`, and `isFavorite` properties
-    a. Hint: Specifying the properties of an object is called and object's "shape"
+2. Change the trash icon to a filled-in trash icon when hovering over it
+
+Filled trash icon to use when hovering:
+<i className="ri-delete-bin-fill"></i>
+
+Empty trash icon to use when NOT hovering:
+<i className="ri-delete-bin-line"></i>
